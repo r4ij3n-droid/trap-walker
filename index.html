@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <title>Trap Walker</title>
+    <!-- YouTube Playables SDK: must load before any game code. -->
+    <script src="https://www.youtube.com/game_api/v1"></script>
+    <style>html,body{background:#0d1020;height:100%;margin:0;overflow:hidden}#loading{z-index:10;background:#0d1020;justify-content:center;align-items:center;transition:opacity .35s;display:flex;position:fixed;top:0;bottom:0;left:0;right:0}#loading.done{opacity:0;pointer-events:none}#loading svg{filter:drop-shadow(0 8px 18px #00000080);width:84px;height:84px;animation:.9s linear infinite spin}@keyframes spin{to{transform:rotate(360deg)}}</style>
+    <script type="module" crossorigin src="./assets/index-DJXGgBpX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C_zRaqlW.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="stage"></canvas>
+      <div id="ui">
+        <div id="loading" role="status" aria-label="Loading">
+          <!-- A spinning saw blade. -->
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path fill="#c9ced9" d="M50 4l7 13 13-6 1 15 15-1-6 13 13 7-13 7 6 13-15-1-1 15-13-6-7 13-7-13-13 6-1-15-15 1 6-13-13-7 13-7-6-13 15 1 1-15 13 6z"/>
+            <circle cx="50" cy="50" r="22" fill="#8a90a3"/>
+            <circle cx="50" cy="50" r="8" fill="#0d1020"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
