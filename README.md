@@ -4,6 +4,8 @@
 
 ### [Play it now in your browser](https://r4ij3n-droid.github.io/trap-walker/)
 
+![Trap Walker gameplay](screenshot.jpg)
+
 A little guy in a red hoodie is about to walk straight into a pit of spikes, and he is not going to stop. All you've got is your finger.
 
 Draw a line and he walks on it. Make it a bridge over the pit, a hump over the spikes, a ramp up to the ledge or a wall that turns him around. The second you lift your finger, he starts walking, so every line after the first one, you're drawing while he's on the move.
